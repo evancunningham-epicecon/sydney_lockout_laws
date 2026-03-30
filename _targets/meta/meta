@@ -1,0 +1,5 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+raw_abs_employment|stem|1ee726d62d857357|7b072ac6d07bc1df|2c530c1562a7fbd1|2070931866|data/raw/61600_DO003_260221.xlsx|t20542.1768998441s|s6294689b|6294689|file|local|vector|||0.83|package 'tidyverse' was built under R version 4.4.3. package 'ggplot2' was built under R version 4.4.3. package 'readxl' was built under R version 4.4.3. package 'here' was built under R version 4.4.3|
+read_abs_sheet|function|ec6f6b7721582702
+ingest_abs_employment|function|ae08881836041e78
+emp_sa2_tidy|stem|5f5c55a4f682e99c|2ec900dfca8e9f4d|da715f9ba778b047|-2141919051||t20542.225619984s|s1788436b|1788436|rds|local|vector|||5.15||
