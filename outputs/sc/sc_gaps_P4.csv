@@ -1,0 +1,161 @@
+year_start,treated_index,synth_index,gap,pool_id,pool_label,treated_code,treated_name,treatment_status,industry,pre_mspe
+2011,102.77859814924199,104.44537358778412,-1.6667754385421318,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2012,102.83766489466431,101.17088764342306,1.6667772512412569,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2013,100,99.99999999944522,5.54777557226771e-10,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2014,103.10592636345737,103.45999237289625,-0.3540660094388812,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2015,107.95432171687342,101.10794458005917,6.8463771368142545,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2016,141.0120102382359,111.64202494798714,29.36998529024875,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2017,127.96564284307935,114.75880011796565,13.206842725113702,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2018,120.96377239614098,119.68204108273136,1.2817313134096224,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Total,2.778143383891338
+2011,93.74423325336778,94.25983048307941,-0.5155972297116307,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2012,95.60804576490129,95.09245148057529,0.5155942843259993,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2013,100,99.99999999942087,5.791349622086273e-10,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2014,104.19819154825613,105.51753711193133,-1.3193455636751992,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2015,107.46447684074553,108.29934652241778,-0.8348696816722452,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2016,139.0754751799225,113.80198856078917,25.273486619133337,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2017,130.1439379959402,115.62930255183105,14.51463544410916,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2018,128.19708433290276,119.29657420297103,8.900510129931732,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Accommodation and food services,0.26583898465797373
+2011,103.78006872852234,105.41751345658454,-1.6374447280622064,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2012,106.872852233677,105.23540399934693,1.6374482343300656,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2013,100,99.99999999917718,8.228226988649112e-10,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2014,100.6872852233677,105.95998935313881,-5.272704129771114,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2015,104.46735395189003,101.87118940755494,2.596164544335096,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2016,173.36769759450172,104.59010526041996,68.77759233408176,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2017,153.09278350515464,109.7090019877672,43.38378151738745,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2018,141.4089347079038,113.93364059402894,27.475294113874853,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Arts and recreation services,2.681230978784681
+2011,106.68973471741639,109.5636567722989,-2.873922054882513,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2012,108.76585928489044,105.89194186178229,2.8739174231081535,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2013,100.00000000000001,99.99999999947065,5.293685489959898e-10,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2014,106.45905420991927,101.46509743120693,4.993956778712345,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2015,108.15071126489812,100.19181225270636,7.958899012191765,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2016,127.56632064590542,106.7046897517488,20.86163089415662,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2017,124.87504805843906,120.01477636638776,4.860271692051299,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2018,113.18723567858515,121.11054959470556,-7.9233139161204065,P4,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,Retail trade,8.259414666192367
+2011,97.48322147651007,96.8360745782743,0.6471468982357607,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2012,97.94081757169006,98.58795423423075,-0.6471366625406887,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2013,100,99.99999998626876,1.3731238368563936e-8,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2014,104.57596095179989,102.54138250901859,2.034578442781296,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2015,105.62080536912752,103.31708403000778,2.303721339119747,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2016,108.83160463697376,111.4579565992839,-2.626351962310139,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2017,105.06406345332519,115.46403972868401,-10.399976275358824,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2018,104.06497864551555,120.65808620608837,-16.593107560572818,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Total,0.4187924839502336
+2011,94.61297071129708,92.70229288848557,1.9106778228115076,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2012,92.05020920502092,93.96088431637882,-1.9106751113579037,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2013,100,99.99999999974025,2.597460024844622e-10,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2014,94.87447698744771,106.16292665253677,-11.288449665089061,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2015,102.71966527196653,109.631315413764,-6.911650141797466,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2016,101.0460251046025,115.83963431362702,-14.79360920902451,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2017,101.35983263598325,117.75257951673993,-16.392746880756675,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2018,99.94769874476988,121.59324218763719,-21.645543442867307,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Accommodation and food services,3.6506845618731303
+2011,87.50000000000001,89.57376550371363,-2.0737655037136165,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2012,94.02173913043477,91.94777532285777,2.0739638075770017,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2013,100,100.00000000006345,-6.345146630337695e-11,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2014,100,98.88760219944511,1.1123978005548878,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2015,106.5217391304348,97.95506267755464,8.56667645288016,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2016,111.68478260869564,102.12135752660298,9.563425082092664,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2017,95.10869565217392,103.59472577338792,-8.486030121214,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2018,113.04347826086958,112.09534867236638,0.9481295885031926,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Arts and recreation services,4.300914619765942
+2011,100.47449584816134,97.52474896043137,2.9497468877299724,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2012,95.37366548042705,98.32342758787577,-2.94976210744872,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2013,100,99.99999999608245,3.917548951903882e-9,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2014,106.16844602609727,102.3330235389323,3.8354224871649762,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2015,102.25385527876632,103.46826545289065,-1.2144101741243247,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2016,104.62633451957296,108.45345184641616,-3.8271173268431937,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2017,95.49228944246738,109.99438569729615,-14.502096254828771,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2018,91.57769869513642,112.19973057262322,-20.622031877486805,P4,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,Retail trade,8.701051596106486
+2011,99.73522736824411,98.9219879778503,0.8132393903938038,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2012,99.15945196267967,99.97269415402086,-0.8132421913411889,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2013,100,99.99999999979886,2.0114043763896916e-10,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2014,100.08405480373203,101.473637814804,-1.389583011071963,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2015,101.2356056148609,100.59825246093311,0.6373531539277906,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2016,102.73178112129108,107.73922893062328,-5.007447809332206,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2017,97.7473312599815,110.89099025259634,-13.143658992614846,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2018,99.40321089350257,115.5759490644394,-16.172738170936825,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Total,0.6613605839327522
+2011,95.3053184504268,95.9152846031033,-0.6099661526765061,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2012,96.8811556139199,96.27118354699344,0.6099720669264599,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2013,100,99.99999999979005,2.099511675623944e-10,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2014,96.68417596848326,104.30661935575318,-7.622443387269925,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2015,98.03020354563363,106.11973464767874,-8.089531102045115,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2016,96.913985554826,110.57541349714037,-13.661427942314376,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2017,89.85554826001314,112.4668558298671,-22.611307569853963,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2018,93.43401181877874,116.15507703495621,-22.721065216177465,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Accommodation and food services,0.3720623149207582
+2011,97.17314487632511,92.5291190650533,4.644025811271817,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2012,90.28268551236751,94.92669759769704,-4.6440120853295355,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2013,100,99.99999999985704,1.4296119843493216e-10,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2014,94.52296819787986,100.57662511180301,-6.053656913923149,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2015,103.18021201413428,99.22920570532906,3.951006308805219,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2016,102.65017667844523,103.10980175958123,-0.45962508113599654,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2017,102.82685512367492,105.12609301405081,-2.299237890375892,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2018,102.82685512367492,112.25383802834509,-9.426982904670169,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Arts and recreation services,21.56691199222282
+2011,100.41095890410959,98.40283919469293,2.008119709416661,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2012,96.91780821917808,98.92592569202584,-2.0081174728477578,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2013,100,99.99999999887486,1.1251444220761186e-9,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2014,101.23287671232877,101.85135953003451,-0.6184828177057398,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2015,97.80821917808218,102.23510929330679,-4.426890115224609,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2016,99.58904109589042,106.91481314942895,-7.325772053538529,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2017,93.013698630137,108.2020256561762,-15.188327026039204,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2018,89.38356164383562,110.19516997735809,-20.81160833352247,P4,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,Retail trade,4.03254027605206
+2011,98.16743932369783,98.74656711896202,-0.5791277952641849,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2012,100.54540496318515,99.96627534735764,0.5791296158275117,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2013,100,99.99999999996778,3.221600763936294e-11,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2014,105.44859558221978,101.35562782602321,4.092967756196572,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2015,106.11944368693754,100.52525288259669,5.594190804340855,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2016,109.87728388328334,107.54855597358863,2.328727909694706,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2017,109.75184074175075,110.68056763317297,-0.9287268914222153,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2018,110.94082356149441,115.33262911202264,-4.3918055505282325,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Total,0.3353900575880384
+2011,93.14593762033115,93.87115856419544,-0.7252209438642865,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2012,95.53330766268772,94.80808863931088,0.7252190233768374,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2013,100,99.99999999973204,2.67959876509849e-10,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2014,105.69888332691568,105.6531194685029,0.04576385841278352,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2015,105.96842510589141,108.59104224694563,-2.6226171410542207,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2016,118.05929919137465,114.25257868342568,3.8067205079489668,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2017,111.85983827493261,116.10246764298215,-4.242629368049535,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2018,117.40469772814785,119.8149064648745,-2.410208736726645,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Accommodation and food services,0.5259440246435303
+2011,90.79229122055673,94.22285366997386,-3.430562449417124,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2012,100,96.56944172163377,3.4305582783662345,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2013,100,99.9999999999241,7.59001750338939e-11,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2014,97.00214132762314,101.44552044863819,-4.443379121015056,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2015,92.07708779443254,99.92589362408408,-7.848805829651539,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2016,98.92933618843684,103.68275890722137,-4.753422718784535,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2017,102.99785867237686,105.94075922844341,-2.9429005560665473,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2018,109.63597430406853,112.40925903965281,-2.7732847355842836,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Arts and recreation services,11.76874441030896
+2011,105.4140127388535,103.7837426654889,1.6302700733645992,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2012,100.79617834394904,102.42644835125377,-1.6302700073047305,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2013,100,99.99999999994087,5.913136646995554e-11,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2014,104.93630573248409,100.49799448585152,4.438311246632566,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2015,101.35350318471338,98.47596530217105,2.8775378825423275,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2016,100.63694267515923,102.87013810141653,-2.2331954262572964,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2017,94.18789808917198,106.77655308937693,-12.588655000204952,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2018,92.59554140127388,107.98332549625118,-15.387784094977306,P4,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,Retail trade,2.657780404412791
+2011,92.61353273755245,93.31588827182846,-0.702355534276009,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2012,96.24293270107607,95.5405767061095,0.7023559949665668,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2013,100,99.99999999989285,1.0714984455262311e-10,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2014,104.57322633594748,105.7873852749124,-1.2141589389649141,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2015,106.22834214845886,110.75101605086905,-4.52267390241019,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2016,111.95969359839505,122.77974468201299,-10.82005108361794,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2017,109.82582527813241,128.54234265422832,-18.716517376095908,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2018,110.13131497355464,134.66650647410788,-24.53519150055324,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Total,0.49330362009680706
+2011,81.770460510618,81.69052730117721,0.07993320944078164,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2012,86.30398472918158,86.38362360828722,-0.07963887910564438,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2013,100,100.0000000033449,-3.344894139445387e-9,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2014,104.50966356478168,115.981751457104,-11.472087892322321,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2015,107.73085182534001,127.48173181646031,-19.7508799911203,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2016,116.70245764733954,142.25521708492468,-25.552759437585138,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2017,121.59389167263184,144.6101952747245,-23.016303602092663,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2018,128.70436649964208,149.37536080829133,-20.670994308649256,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Accommodation and food services,0.006365834518353652
+2011,101.29870129870129,100.37479077403728,0.9239105246640094,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2012,100.92764378478664,101.85155432161473,-0.9239105368280889,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2013,100,99.99999999999389,6.110667527536862e-12,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2014,103.3395176252319,104.18342292027376,-0.84390529504185,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2015,114.47124304267162,101.75863201167778,12.712611030993841,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2016,128.57142857142856,104.98549961470792,23.585928956720636,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2017,130.05565862708718,108.36420341480475,21.691455212282435,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2018,133.58070500927644,113.11765901451975,20.463045994756698,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Arts and recreation services,0.8536106688234462
+2011,97.59679572763685,100.48405859925653,-2.887262871619683,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2012,103.20427236315086,100.31700715241286,2.8872652107380077,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2013,100.00000000000001,99.99999999995882,4.119726781937061e-11,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2014,104.8731642189586,100.34188974703049,4.531274471928114,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2015,102.40320427236315,98.41969183584048,3.9835124365226733,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2016,108.74499332443258,102.19508577727967,6.5499075471529125,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2017,109.47930574098798,102.910182506481,6.569123234506989,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764
+2018,101.93591455273697,104.37438558076607,-2.438471028029099,P4,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,Retail trade,8.336293643485764

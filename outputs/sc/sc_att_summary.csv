@@ -1,0 +1,394 @@
+pool_id,pool_label,treated_code,treated_name,treatment_status,unit_role,industry,att,pre_mspe,n_donors
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Total,8.883323008050633,2.2016448861843703,1871
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Population,-17.00280936205232,0.018733937980952346,1874
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Retail trade,5.037460797765962,7.997799129390566,1849
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Accommodation and food services,7.6120606280397025,0.15479028117159827,1844
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Arts and recreation services,22.0651653565616,1.4655343887813972,1630
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Total,-0.2971295263839077,5.955442758233647e-4,1870
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Retail trade,-9.785071164193411,1.4813730338181004,1847
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Accommodation and food services,3.2674819806250404,0.01998031000747047,1842
+P1,All Australia (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Arts and recreation services,-16.252007444324388,0.286866188734506,1632
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Total,-4.223461497829983,0.4754227099668874,1874
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Population,-20.963459191175502,0.0492956844381866,1874
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Retail trade,-5.803047910292712,8.89811570112241,1846
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Accommodation and food services,-12.4475328826046,4.1736687212054235,1843
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Total,1.7837997900941929,6.898762061307778,1873
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Retail trade,5.982376738561818,13.458753661184499,1849
+P1,All Australia (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Accommodation and food services,-3.6344353644745078,5.942950377401228,1844
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Total,-5.271189760416415,0.9748650758093726,1874
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Population,-11.5197242825882,0.19603857642742567,1874
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Retail trade,-7.678784781704077,4.16491122576106,1846
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Accommodation and food services,-13.088402529256287,0.22234218697281483,1845
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Arts and recreation services,-2.6023986903731875,22.21453589521783,1627
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Total,10.001643589673842,0.9365648095230976,1873
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Retail trade,6.111082378457233,11.076299935693132,1849
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Accommodation and food services,-2.331060195885103,5.828294562137177,1841
+P1,All Australia (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Arts and recreation services,0.745749222634205,49.9869735032129,1632
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Total,1.4779812828813992,0.21425383453648703,1874
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Population,-0.4275892509681256,0.0020255487908619825,1870
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Retail trade,-4.091458423724345,2.769537457660351,1849
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Accommodation and food services,-1.0986600867666614,0.36305318448597435,1844
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Total,-10.093407129316796,5.291921881579688,1870
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Retail trade,-9.191451813656897,11.63535135503755,1844
+P1,All Australia (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Accommodation and food services,-8.420806873731967,10.775117595374084,1845
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Total,-10.070712594888924,0.4618394058817872,1872
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Population,-13.467140514138615,0.06563104269369208,1874
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Retail trade,3.6383287337625325,8.131335643223135,1849
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Accommodation and food services,-17.243255310623997,0.035210670163848865,1839
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Arts and recreation services,12.193431588972857,1.631582894908497,1631
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Total,-29.122077484129957,20.735421563747487,1805
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Retail trade,-15.390068070548224,58.06105563949691,1849
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Accommodation and food services,-11.797574342746621,0.14635323956092494,1845
+P1,All Australia (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Arts and recreation services,-34.12546850249836,2.33184967102327,1632
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Total,-5.87787357888632,1.1452444093855207,1872
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Accommodation and food services,4.365812088921167,1.0630975313906337,1845
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Arts and recreation services,12.176410656530743,7.920670712954511,1627
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Retail trade,0.20374110870492976,1.3921469089572382,1849
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Population,-8.01067421694107,0.0021468485064711196,1874
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Total,-4.832626462603957,32.079641763604315,1873
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Retail trade,-9.14632344459303,2.888664534481434,1849
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Accommodation and food services,-14.409653503559177,15.568277662502089,1844
+P1,All Australia (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Arts and recreation services,-6.870250633629634,32.799666923367276,1632
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Total,-2.12546939052073,0.014785260925806943,1872
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Accommodation and food services,-7.636929339740971,2.9857981965805394,1843
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Arts and recreation services,8.519528238265567,2.1915575133941108,1627
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Retail trade,-3.6243130979248974,1.154156699988512,1846
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Population,-4.871124750575504,0.0034762817133949424,1874
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Total,-5.524873167425459,1.8833994289805753,1870
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Retail trade,-11.99607369282081,0.044819984323613775,1849
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Accommodation and food services,-10.708581391328963,0.311765264693536,1842
+P1,All Australia (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Arts and recreation services,0.1434580932503072,169.64806096241358,1632
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Total,-8.132857671623377,0.10254315151681921,1872
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Accommodation and food services,-0.8920728671444588,3.2708578978583183,1843
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Arts and recreation services,4.519922865084119,23.11615682010929,1627
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Retail trade,7.400677872595177,0.35566636627109427,1847
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Population,-26.70882313745845,0.4293012810111938,1874
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Total,-5.415256096678472,12.820258610670514,1873
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Retail trade,-14.312114480456094,28.109950176977215,1849
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Accommodation and food services,-6.397497754697409,0.16103618468688863,1844
+P1,All Australia (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Arts and recreation services,-9.943053657859238,0.019541203933019738,1632
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Total,-7.836487997482339,7.040236835875827,1868
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Accommodation and food services,-1.3726839272754958,3.412631504472404,1839
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Arts and recreation services,26.792617683530874,9.335802797706483,1620
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Retail trade,-2.621268480652309,0.9342466014888491,1839
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Population,-40.70750012559111,1.7289572138779778,1874
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Total,-4.0885701044660605,4.77809011506724,1873
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Retail trade,-11.078023568109082,5.296830943483869,1849
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Accommodation and food services,-10.45245329547467,0.4491009486945028,1842
+P1,All Australia (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Arts and recreation services,-8.162863991729573,20.333537881816994,1632
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Total,-6.97704857738654,5.980030633000392e-4,1872
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Accommodation and food services,-6.24442930354536,4.0989605172955255,1843
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Arts and recreation services,16.613658508883624,1.0503695878466264,1627
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Retail trade,4.360239997595897,4.158123390780681,1846
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Population,-14.731807390734565,0.02877347216208709,1874
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Total,-2.6719036365904523,1.7374687840891343,1870
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Retail trade,-10.539986277660221,0.12902631842724716,1849
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Accommodation and food services,-9.567356996490615,19.698815473373344,1844
+P1,All Australia (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Arts and recreation services,-8.028842570763532,344.09701009933207,1632
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Total,-7.07383217265258,0.10809302765162727,1874
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Accommodation and food services,-6.761874765913686,16.03409625276535,1844
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Arts and recreation services,2.369737483397086,8.968602220361802,1624
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Retail trade,-4.3805121309181985,0.2996456820409419,1846
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Population,-1.7564905915288616,0.007967686472330836,1871
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Total,1.5466295913752124,13.036388291242487,1872
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Retail trade,-10.819870433607832,24.107867142134904,1849
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Accommodation and food services,-3.822459311412407,4.913309469282217,1845
+P1,All Australia (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Arts and recreation services,9.35580223632443,147.93936029176237,1632
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Total,-14.360567225594684,2.0916023466462863,1872
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Accommodation and food services,-17.569562736718414,4.436282422542348,1843
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Arts and recreation services,-6.368065021732605,22.16775859973919,1624
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Retail trade,-14.996821431097402,3.5281073046596663,1844
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Population,-0.9016996273732616,0.011069742422753532,1870
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Total,1.575593626934148,0.02175205810957467,1872
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Retail trade,-9.441411553536007,22.751903934071493,1849
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Accommodation and food services,2.7564764139196876,4.60819428326719,1845
+P1,All Australia (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Arts and recreation services,-15.778412251298137,0.5794826453387278,1632
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Total,-5.060197950346809,1.3825467108704705,1874
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Accommodation and food services,-8.470973003889787,16.947181616667784,1843
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Arts and recreation services,0.7128894465338907,1.3449849997592342,1631
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Retail trade,-3.0868444255415377,4.494783865860077,1846
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Population,-0.9303882591397278,0.014508903010068696,1870
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Total,3.013171074591407,8.807497057158145,1872
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Retail trade,-19.8077875749393,2.0651437715269854,1849
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Accommodation and food services,-2.5173982452455044,169.44723970645583,1845
+P1,All Australia (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Arts and recreation services,-15.739975899469341,610.7857523181099,1632
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Total,-6.948044047218723,0.7976620010114776,1874
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Accommodation and food services,-5.606144537584679,0.3467821680334038,1844
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Arts and recreation services,5.814778876058194,2.447886050964425,1622
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Retail trade,-8.528913399266818,3.5753463825231715,1846
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Population,-1.5100599118365021,0.00511101209205205,1870
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Total,-1.767179649456357,2.4570858865020258,1872
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Retail trade,-10.891075230458641,8.528081117959093,1849
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Accommodation and food services,-6.696166182363645,1.0936759530567808,1845
+P1,All Australia (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Arts and recreation services,-6.422877812661206,129.9776182587069,1632
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Total,-3.458501510721964,4.601689716479029,1872
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Accommodation and food services,17.66509190950454,13.855399574902055,1845
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Arts and recreation services,0.8329433339194594,1.316606882310351,1631
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Retail trade,-7.075646395590465,0.14489631780062756,1846
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Population,-2.9019895617106735,0.015285303000286002,1874
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Total,-10.57143763726401,6.595021531205907,1872
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Retail trade,-23.213715862205262,88.69999945690108,1831
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Accommodation and food services,-16.368759549799137,76.25593799132756,1845
+P1,All Australia (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Arts and recreation services,-22.339078768215362,27.26315742600228,1632
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Total,8.667721456664466,2.689340309624593,1613
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Population,-15.943946166166329,0.00689352861003345,1616
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Retail trade,5.206345461591312,8.449915300625662,1591
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Accommodation and food services,7.948344549005728,0.22465162175651496,1586
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Arts and recreation services,22.901449236594527,2.5964376585318405,1423
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Total,0.05942947698428943,0.071382948265204485,1612
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Retail trade,-9.751936644003429,1.6368733988588384,1589
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Accommodation and food services,3.35730478762031,0.008657866442010453,1585
+P2,All Australia exc. NSW,117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Arts and recreation services,-16.234657210872943,0.384729256039927,1425
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Total,-4.244082500001883,0.35892181105841425,1616
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Population,-19.888136984793967,0.02834301546408727,1616
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Retail trade,-5.820598751218017,8.565663976560952,1588
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Accommodation and food services,-11.679693015270336,3.8110024608834836,1585
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Income: Total,2.177268894400638,5.449041064819474,1615
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Income: Retail trade,6.045367846962641,14.365969157967527,1589
+P2,All Australia exc. NSW,117031329,Darlinghurst,Full,treated,Income: Accommodation and food services,-3.6100519679332685,6.643508455871341,1586
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Total,-5.499271410776072,0.7264734741350166,1616
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Population,-10.355439792602942,0.1518043135371142,1616
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Retail trade,-7.76748229206828,3.935310152374999,1588
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Accommodation and food services,-12.328993398056523,0.3202923023557962,1587
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Arts and recreation services,-2.2384758526210007,21.14409661727421,1422
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Income: Total,10.404425782502761,0.5049238987890214,1615
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Income: Retail trade,6.170766863266739,10.268297628863202,1591
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Income: Accommodation and food services,-2.284217851969153,6.115438583903714,1585
+P2,All Australia exc. NSW,117031333,Potts Point - Woolloomooloo,Full,treated,Income: Arts and recreation services,-0.5061844193779024,39.55806790514259,1425
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Total,1.2792388284664753,0.35382405148230145,1616
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Population,-2.4483013243177254,0.003393293878646407,1615
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Retail trade,-3.754547896569401,2.556107287553778,1591
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Accommodation and food services,-0.7220230484291955,0.46725835363072543,1586
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Income: Total,-9.803764439673422,6.448963019998031,1615
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Income: Retail trade,-9.039523598921386,10.437429217980934,1587
+P2,All Australia exc. NSW,117031336,Surry Hills,Partial,treated,Income: Accommodation and food services,-8.463154491210263,8.788061790107177,1587
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Total,-10.0435455524975,0.5771516771577542,1614
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Population,-12.319651969836967,0.04124763821908673,1616
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Retail trade,3.5728933562342533,8.493927656084495,1591
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Accommodation and food services,-16.60315870194727,0.012913355663145557,1583
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Arts and recreation services,13.074625038492933,0.7849607482435312,1424
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Income: Total,-28.81906794811717,18.741179654849823,1571
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Income: Retail trade,-15.282529152715922,60.09363895880862,1591
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Income: Accommodation and food services,-11.728120601622019,0.10089706848461305,1587
+P2,All Australia exc. NSW,117031334,Pyrmont - Ultimo,Partial,treated,Income: Arts and recreation services,-38.534288194862455,0.7692279735658423,1425
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Total,-5.815302722511238,1.3017740572666552,1615
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Accommodation and food services,5.113160797418014,1.2658608048567652,1587
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Arts and recreation services,12.511703026102685,7.35505413705257,1422
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Retail trade,0.5364199541718406,1.5503282506896796,1591
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Population,-6.773609888645019,5.474616969430008e-5,1616
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Total,-4.4087884716493235,35.47388300285705,1615
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Retail trade,-9.01944195645339,2.447327577537808,1591
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Accommodation and food services,-14.378480121505618,15.039008048132406,1585
+P2,All Australia exc. NSW,117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Arts and recreation services,-6.7664650177768,31.075261321607616,1425
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Total,-2.069513783427825,0.03759283238529511,1614
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Accommodation and food services,-6.686418253818471,3.311464219783291,1583
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Arts and recreation services,8.85709896153095,1.896324336560276,1422
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Retail trade,-3.6411836022797672,1.043319408159336,1588
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Population,-3.576631008863648,1.8058803921084554e-5,1616
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Total,-5.011250028281853,1.1248852282560717,1614
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Retail trade,-11.715122030164997,4.050017669932897e-4,1591
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Accommodation and food services,-10.737291411109473,0.027292554997668955,1584
+P2,All Australia exc. NSW,117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Arts and recreation services,-4.335438567287862,112.04523833268162,1425
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Total,-8.119252303583366,0.16282302707206092,1614
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Accommodation and food services,0.07854855505764391,3.6190646950842345,1583
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Arts and recreation services,4.891425345710654,21.98869279350368,1421
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Retail trade,6.928423144420961,0.2743094953849129,1589
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Population,-26.544502656601214,0.3718719316766931,1616
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Income: Total,-5.1839610540612044,14.412267192203895,1615
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Income: Retail trade,-14.026934517019576,30.211896521873,1591
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Income: Accommodation and food services,-6.371226405239848,0.2802576223810501,1586
+P2,All Australia exc. NSW,117031335,Redfern - Chippendale,Spillover,spillover,Income: Arts and recreation services,-13.491446248732865,3.334037652110864,1425
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Total,-7.884482873643243,7.492232307525802,1611
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Accommodation and food services,-0.6614749556849185,3.13268666033421,1583
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Arts and recreation services,27.011846146869008,9.050166013101263,1417
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Retail trade,-2.8599063100705067,1.0014337387858507,1584
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Population,-31.449650941993823,1.1425890235367027,1616
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Total,-3.697218194713128,6.172985306114077,1615
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Retail trade,-11.021476295221108,4.797501703424384,1591
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Accommodation and food services,-10.42530089947715,0.37168128678753115,1585
+P2,All Australia exc. NSW,117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Arts and recreation services,-8.173270246615905,19.808817854096212,1425
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Total,-6.9465718003284636,0.0029941935377263374,1614
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Accommodation and food services,-5.274998428974077,3.725935156045332,1583
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Arts and recreation services,16.98732377650642,0.8190654226566727,1421
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Retail trade,4.338270320260797,4.391565586067779,1588
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Population,-13.622136009597284,0.04968674310338888,1616
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Income: Total,-2.1541367944717464,1.0079008738200976,1613
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Income: Retail trade,-10.486596000729728,0.06512240110970999,1591
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Income: Accommodation and food services,-9.53566998318214,20.36718198368757,1585
+P2,All Australia exc. NSW,117031330,Erskineville - Alexandria,Spillover,spillover,Income: Arts and recreation services,-7.970532453236231,339.4761299737264,1425
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Total,-7.092715635457334,0.17482972199993296,1616
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Accommodation and food services,-6.731714705519214,15.40555134182982,1586
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Arts and recreation services,2.651543023081016,9.444351353197199,1420
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Retail trade,-4.391280838205873,0.24195471675262584,1588
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Population,-1.61662975335733,0.009916931593148789,1612
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Income: Total,1.9546000494295537,15.351457251435008,1614
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Income: Retail trade,-10.678295004838633,25.48429039313581,1591
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Income: Accommodation and food services,-3.8560466871756014,3.6663510685512213,1587
+P2,All Australia exc. NSW,120021388,Leichhardt - Annandale,Spillover,spillover,Income: Arts and recreation services,-0.09715530228372415,51.72173460446942,1425
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Total,-14.310797965118697,2.310702913891009,1614
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Accommodation and food services,-16.599538328394598,4.04818456075475,1583
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Arts and recreation services,-6.07447400006522,22.96520944993403,1420
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Retail trade,-15.08648133685058,3.6993215659358416,1586
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Population,-1.2166114111668094,0.01165228958381428,1612
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Income: Total,2.0094640719500867,0.20167657890659435,1614
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Income: Retail trade,-9.25773501395684,24.512782552595148,1591
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Income: Accommodation and food services,2.6586275546743985,2.839230302311104,1587
+P2,All Australia exc. NSW,120021387,Balmain,Spillover,spillover,Income: Arts and recreation services,-12.28374215235601,1.8946855409363508,1425
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Total,-5.112367805072552,1.632865073326553,1616
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Accommodation and food services,-7.563590473663595,17.734333707057335,1584
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Arts and recreation services,1.6105754472965141,2.392451721159922,1423
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Retail trade,-3.1175256461996477,4.7132872314133945,1588
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Population,-1.2384316524219419,0.015159751516778935,1612
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Total,3.408759075834247,10.653167090312039,1614
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Retail trade,-19.7518853847151,2.3951515418279197,1591
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Accommodation and food services,-2.597157162706987,158.6937659597562,1587
+P2,All Australia exc. NSW,120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Arts and recreation services,-22.32838191478043,449.62712430740214,1425
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Total,-6.965829834885976,0.9640666765099524,1616
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Accommodation and food services,-5.2388227468295625,0.44865014508303863,1586
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Arts and recreation services,6.064119412324698,2.2561452275137253,1420
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Retail trade,-8.539526307418107,3.7881864553048503,1588
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Population,-1.7694472935556813,0.004771364910817233,1612
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Income: Total,-1.3285059356748878,3.4965919570361907,1614
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Income: Retail trade,-10.610454494010888,9.682467240457184,1591
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Income: Accommodation and food services,-6.776394392497548,0.9666863975531885,1587
+P2,All Australia exc. NSW,118011345,Paddington - Moore Park,Spillover,spillover,Income: Arts and recreation services,-1.9917915130899668,115.92546403232403,1425
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Total,-3.400686220163635,4.915087342259831,1614
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Accommodation and food services,18.34872961427344,15.691516952978757,1586
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Arts and recreation services,1.7467952794410664,0.5735933937401627,1424
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Retail trade,-7.095106805914166,0.18758638269824826,1588
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Population,-2.629944343732241,0.018169217551926048,1616
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Total,-10.221533969007234,7.981029094278037,1615
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Retail trade,-23.07289063055118,85.3371778118301,1581
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Accommodation and food services,-16.41771814415144,70.51348547083154,1587
+P2,All Australia exc. NSW,118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Arts and recreation services,-19.285894267764743,21.4171812436658,1425
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Total,8.326182274440386,0.23616518375996276,964
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Population,-14.425098030447886,0.002067397002166461,964
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Retail trade,8.692253712625366,9.435365298913034,949
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Accommodation and food services,7.661670966852914,0.4040327958174482,950
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Arts and recreation services,21.29525031484319,0.6843789525001682,926
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Total,5.123469795524611,31.230345522194625,961
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Retail trade,-4.430991044167638,13.51599209074324,948
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Accommodation and food services,3.707521288315469,1.810582317603247e-4,950
+P3,Capital cities only (exc. Greater Sydney),117031337,Sydney - Haymarket - The Rocks,Full,treated,Income: Arts and recreation services,-14.258409550759177,0.004161972098761144,927
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Total,-4.198585573089484,0.9744882409125404,964
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Population,-18.32498835430251,0.0016539187454437875,964
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Retail trade,-5.751898842166445,10.182186269404417,950
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Accommodation and food services,-12.262539750230617,3.297259284415758,950
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Total,3.1486211090135705,7.310387404190393,963
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Retail trade,7.886035724658835,19.626464834691248,949
+P3,Capital cities only (exc. Greater Sydney),117031329,Darlinghurst,Full,treated,Income: Accommodation and food services,-3.2204834537620406,7.52484123823065,947
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Total,-6.357008666087917,1.4634365157763165,964
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Population,-8.490785699547514,0.06960921468475077,964
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Retail trade,-7.9035565846809535,5.026867843262387,950
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Accommodation and food services,-13.523686956372872,0.6153556943724106,950
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Arts and recreation services,-4.489782880081518,24.159358093858877,925
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Total,14.050739791992783,7.1248204671724915,962
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Retail trade,6.778401502206833,10.24362592019909,950
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Accommodation and food services,-2.003979472022479,6.346239783873791,949
+P3,Capital cities only (exc. Greater Sydney),117031333,Potts Point - Woolloomooloo,Full,treated,Income: Arts and recreation services,3.232463778120767,31.868209516945857,927
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Total,0.41913448171282397,0.06321132384642973,964
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Population,-4.387796611560927,0.005217788626643099,962
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Retail trade,-2.5344444090807037,3.2123914666117948,950
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Accommodation and food services,-1.1424392826994065,0.7020168876282208,950
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Total,-7.28564008467482,19.101996073005253,962
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Retail trade,-11.588876074244363,23.638597015956634,949
+P3,Capital cities only (exc. Greater Sydney),117031336,Surry Hills,Partial,treated,Income: Accommodation and food services,-7.998110942286992,6.093795333314873,950
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Total,-9.690357068370728,0.06650457984652079,963
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Population,-10.509768370308825,0.005985386129784416,964
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Retail trade,2.267400849957459,6.989485689781131,950
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Accommodation and food services,-17.739190903359518,1.4254234569797505e-5,950
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Arts and recreation services,12.249814270057646,1.0721404945063882,927
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Total,-13.123264196719042,0.7329384329789859,959
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Retail trade,-14.599078435749677,60.006918519101845,950
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Accommodation and food services,-11.207552631764704,7.449172184976894e-4,950
+P3,Capital cities only (exc. Greater Sydney),117031334,Pyrmont - Ultimo,Partial,treated,Income: Arts and recreation services,-31.252907007593468,2.519997137869272,927
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Total,-5.477537956124375,0.43006263957087437,964
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Accommodation and food services,3.8843590538223602,1.8126492499657487,950
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Arts and recreation services,9.107389123752244,10.185716821762822,925
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Retail trade,1.7400793811128992,1.0876545519896497,950
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Population,-4.881798433054712,0.01654836550385381,964
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Total,-3.2422983808389225,35.10214275742662,962
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Retail trade,-8.327150610209626,2.5094205346565825,950
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Accommodation and food services,-13.973142930771074,13.73084347764119,947
+P3,Capital cities only (exc. Greater Sydney),117031332,Newtown - Camperdown - Darlington,Spillover,spillover,Income: Arts and recreation services,-5.422000178083614,34.900916288252695,927
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Total,-1.6833482247226996,0.09360263928407306,963
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Accommodation and food services,-7.395068762534469,3.849299753251284,949
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Arts and recreation services,5.554876574261857,3.3963379015847748,925
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Retail trade,-4.120988632302168,1.6535328006984722,950
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Population,-2.0973179961540915,0.008633627059143997,964
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Total,3.343539157117521,0.5493629227973862,963
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Retail trade,-11.46769563002109,0.14336971540347618,950
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Accommodation and food services,-10.427321666560074,8.646020872610113e-4,947
+P3,Capital cities only (exc. Greater Sydney),117031331,Glebe - Forest Lodge,Spillover,spillover,Income: Arts and recreation services,3.023996209581526,97.52151791511241,927
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Total,-7.792728238728782,0.008663112562256662,963
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Accommodation and food services,-0.2554834082367042,4.137888414905515,950
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Arts and recreation services,2.8915449779709874,24.6912289766339,925
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Retail trade,7.278019789983905,0.6243980580378834,950
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Population,-26.16023162893921,0.2203437209391763,964
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Total,-3.7420787579820427,13.563805762141342,963
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Retail trade,-13.71063234676898,26.824265029765023,950
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Accommodation and food services,-5.978883837586603,0.4826136262491054,947
+P3,Capital cities only (exc. Greater Sydney),117031335,Redfern - Chippendale,Spillover,spillover,Income: Arts and recreation services,-7.17376671116579,6.438313758310462,927
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Total,-7.695596918236606,5.040288994937725,963
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Accommodation and food services,-1.6787692560933039,2.7762447499487246,950
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Arts and recreation services,17.34702229033846,18.562030367143986,917
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Retail trade,-3.295200908604324,0.48479336341948553,949
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Population,-26.69061485143553,0.6080102207493381,964
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Total,-2.703210827345688,5.284994438676105,963
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Retail trade,-9.403644269158155,2.8747182838500747,950
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Accommodation and food services,-10.042195985383247,0.1522620174606275,948
+P3,Capital cities only (exc. Greater Sydney),117031338,Waterloo - Beaconsfield,Spillover,spillover,Income: Arts and recreation services,-6.008569260920481,26.03923473006558,927
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Total,-6.585527328074917,0.20099504618686515,963
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Accommodation and food services,-5.4688125931024985,3.240797022339963,950
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Arts and recreation services,15.025785732868185,1.3693522425383602,926
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Retail trade,4.39302289981305,3.3558777863757596,950
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Population,-11.948362934316933,0.12193575475470346,964
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Total,5.724817124964905,0.449610156654361,963
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Retail trade,-9.062645609711312,0.011772405814796466,950
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Accommodation and food services,-9.131393208613277,21.92685821219827,947
+P3,Capital cities only (exc. Greater Sydney),117031330,Erskineville - Alexandria,Spillover,spillover,Income: Arts and recreation services,-6.4358697587333324,353.19183017454816,927
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Total,-7.059879866129296,8.289048313065457e-4,964
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Accommodation and food services,-6.3939720827419295,14.000727457017023,950
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Arts and recreation services,-3.398419433362944,5.040720764118815,923
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Retail trade,-4.522532315763857,0.571995308209436,950
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Population,-6.323403792609798,0.0028336291572800226,964
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Total,3.9802201518576035,15.080818140280599,963
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Retail trade,-9.991175989301055,25.145779094003622,950
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Accommodation and food services,-3.3188570567798124,2.4968960560478637,950
+P3,Capital cities only (exc. Greater Sydney),120021388,Leichhardt - Annandale,Spillover,spillover,Income: Arts and recreation services,12.636851739994606,38.892882800579045,925
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Total,-13.926052947890225,1.0357017078696957,963
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Accommodation and food services,-16.821118723646567,3.5410065638498063,950
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Arts and recreation services,-11.505603802488928,16.365687230343433,924
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Retail trade,-15.824591103358628,2.7187847214262546,950
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Population,-6.975117370328121,9.152738547895624e-4,963
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Total,6.017844526810769,1.145820145238707,963
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Retail trade,-10.69791123027012,15.039005327784565,950
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Accommodation and food services,1.079762822010719,2.4164014204416553,948
+P3,Capital cities only (exc. Greater Sydney),120021387,Balmain,Spillover,spillover,Income: Arts and recreation services,-13.182107065272854,1.3485705607655507,927
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Total,-5.342142954974953,0.8684789302995017,964
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Accommodation and food services,-8.152357485560882,18.867494718820183,950
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Arts and recreation services,0.4165679149359131,1.0943453204415816,926
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Retail trade,-3.74565640724987,3.630906169305069,950
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Population,-6.939113199146189,0.002266026414457158,964
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Total,6.005945357238734,11.843819144712835,963
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Retail trade,-18.849019042870516,2.627549396420659,950
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Accommodation and food services,-3.480413865826241,99.00422665904763,949
+P3,Capital cities only (exc. Greater Sydney),120021389,Lilyfield - Rozelle,Spillover,spillover,Income: Arts and recreation services,-12.654883198997515,421.2278023629477,927
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Total,-6.939603514442299,0.3502216217343428,964
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Accommodation and food services,-5.628656648597887,0.6821904480546273,950
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Arts and recreation services,-1.7799435999791744,6.5804467879874995,921
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Retail trade,-8.678711152293799,2.8287923658100986,950
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Population,-7.157299162724821,0.017851155166065585,964
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Total,2.826740122936004,6.434690203759486,963
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Retail trade,-10.367481567811724,7.565436624405695,950
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Accommodation and food services,-6.309716172690787,0.5643155940809048,950
+P3,Capital cities only (exc. Greater Sydney),118011345,Paddington - Moore Park,Spillover,spillover,Income: Arts and recreation services,-3.3973287313263207,127.38303121523566,927
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Total,-3.0132739102429724,2.9499699679620717,963
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Accommodation and food services,15.563219364060599,22.34257130222707,948
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Arts and recreation services,0.5323012880651751,1.5428362355479113,926
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Retail trade,-7.614790682707368,0.02841408310699735,950
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Population,-5.821435114037851,0.012954148040478602,964
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Total,-8.815904611321294,8.656909116535775,962
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Retail trade,-29.289882829717815,158.1316226685807,945
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Accommodation and food services,-16.12320177257965,58.45761773379757,950
+P3,Capital cities only (exc. Greater Sydney),118011341,Bondi Junction - Waverly,Spillover,spillover,Income: Arts and recreation services,-19.977359236464945,22.500271653747618,927

@@ -1,0 +1,62 @@
+pool_id,pool_label,unit_role,outcome_type,industry,n_units,agg_base_value,agg_att_raw,weighted_att_pct,weighted_att_idx
+P1,All Australia (exc. Greater Sydney),spillover,Employment,Accommodation and food services,10,14.209,-0.19459751776957576,-0.01369537038282608,-1.369537038282608
+P1,All Australia (exc. Greater Sydney),spillover,Employment,Arts and recreation services,10,3.957,0.31073989928150336,0.07852916332613176,7.852916332613176
+P1,All Australia (exc. Greater Sydney),spillover,Employment,Retail trade,10,11.344000000000001,-0.264256967849698,-0.023294866700431766,-2.3294866700431767
+P1,All Australia (exc. Greater Sydney),spillover,Employment,Total,10,173.27,-11.631046849270644,-0.06712672043210391,-6.712672043210391
+P1,All Australia (exc. Greater Sydney),spillover,Median income,Accommodation and food services,10,7651.985185445844,-667.2585943933457,-0.08985454165414919,-8.985454165414918
+P1,All Australia (exc. Greater Sydney),spillover,Median income,Arts and recreation services,10,12390.10323477382,-903.4874934112332,-0.0704305092044428,-7.04305092044428
+P1,All Australia (exc. Greater Sydney),spillover,Median income,Retail trade,10,16712.16149506347,-2131.127043933872,-0.12671419783778404,-12.671419783778404
+P1,All Australia (exc. Greater Sydney),spillover,Median income,Total,10,28670.884697293237,-652.1975190504492,-0.03143601377190854,-3.1436013771908544
+P1,All Australia (exc. Greater Sydney),spillover,Population,Population,10,188913,-21368.33597357104,-0.11311204614595628,-11.311204614595628
+P1,All Australia (exc. Greater Sydney),spillover,Rent,Rent (monthly avg),10,1864.5920291351044,218.75663926107538,0.11999230812575024,11.999230812575025
+P1,All Australia (exc. Greater Sydney),treated,Employment,Accommodation and food services,5,21.171,-0.467499916432671,-0.022082089482436874,-2.2082089482436875
+P1,All Australia (exc. Greater Sydney),treated,Employment,Arts and recreation services,3,1.677,0.1902793390540185,0.11346412585212791,11.346412585212791
+P1,All Australia (exc. Greater Sydney),treated,Employment,Retail trade,5,7.86,-0.008350845311448474,-0.0010624485129069304,-0.10624485129069304
+P1,All Australia (exc. Greater Sydney),treated,Employment,Total,5,123.15899999999999,0.09933318288456411,8.06544246742537e-4,0.0806544246742537
+P1,All Australia (exc. Greater Sydney),treated,Median income,Accommodation and food services,5,6323.0160360871005,-161.09284744469974,-0.020302189243653557,-2.0302189243653554
+P1,All Australia (exc. Greater Sydney),treated,Median income,Arts and recreation services,3,13928.621943947526,-3176.116297307081,-0.1687055792663256,-16.870557926632557
+P1,All Australia (exc. Greater Sydney),treated,Median income,Retail trade,5,12323.546183206106,-654.4781897185596,-0.06317350775234053,-6.317350775234053
+P1,All Australia (exc. Greater Sydney),treated,Median income,Total,5,14410.31580720857,-933.2290136340945,-0.046975375861313264,-4.697537586131327
+P1,All Australia (exc. Greater Sydney),treated,Population,Population,5,95045,-11948.217227156116,-0.1257111602625716,-12.57111602625716
+P1,All Australia (exc. Greater Sydney),treated,Rent,Rent (monthly avg),5,2018.1135041296227,205.9311133782049,0.09972568837684584,9.972568837684584
+P2,All Australia exc. NSW,spillover,Employment,Accommodation and food services,10,14.209,-0.0901197803368226,-0.006342443545416468,-0.6342443545416467
+P2,All Australia exc. NSW,spillover,Employment,Arts and recreation services,10,3.957,0.3265603409184403,0.08252725320152648,8.25272532015265
+P2,All Australia exc. NSW,spillover,Employment,Retail trade,10,11.344000000000001,-0.2711271945026606,-0.023900493168429175,-2.3900493168429175
+P2,All Australia exc. NSW,spillover,Employment,Total,10,173.27,-11.60631637906362,-0.06698399249185444,-6.698399249185444
+P2,All Australia exc. NSW,spillover,Median income,Accommodation and food services,10,7651.985185445844,-668.0242335649774,-0.08995707391143586,-8.995707391143585
+P2,All Australia exc. NSW,spillover,Median income,Arts and recreation services,10,12390.10323477382,-1092.3203669956615,-0.08800874425300426,-8.800874425300425
+P2,All Australia exc. NSW,spillover,Median income,Retail trade,10,16712.16149506347,-2105.937291028851,-0.12512402910001524,-12.512402910001523
+P2,All Australia exc. NSW,spillover,Median income,Total,10,28670.884697293237,-532.3740531349753,-0.02737122080195028,-2.737122080195028
+P2,All Australia exc. NSW,spillover,Population,Population,10,188913,-18452.74360759747,-0.09767852719292727,-9.767852719292728
+P2,All Australia exc. NSW,spillover,Rent,Rent (monthly avg),10,1864.5920291351044,235.5915939098952,0.12900395487905192,12.900395487905193
+P2,All Australia exc. NSW,treated,Employment,Accommodation and food services,5,21.171,-0.3642333721583935,-0.0172043536988519,-1.7204353698851897
+P2,All Australia exc. NSW,treated,Employment,Arts and recreation services,3,1.677,0.2021343628541262,0.12053331118314024,12.053331118314023
+P2,All Australia exc. NSW,treated,Employment,Retail trade,5,7.86,-0.0017156203673278914,-2.1827231136487167e-4,-0.021827231136487168
+P2,All Australia exc. NSW,treated,Employment,Total,5,123.15899999999999,-0.08635077013303641,-7.011324396352392e-4,-0.07011324396352392
+P2,All Australia exc. NSW,treated,Median income,Accommodation and food services,5,6323.0160360871005,-157.62135757859903,-0.01970796119416248,-1.970796119416248
+P2,All Australia exc. NSW,treated,Median income,Arts and recreation services,3,13928.621943947526,-3572.753235603473,-0.18675772093899973,-18.675772093899976
+P2,All Australia exc. NSW,treated,Median income,Retail trade,5,12323.546183206106,-644.2589934256741,-0.06242613848821703,-6.242613848821703
+P2,All Australia exc. NSW,treated,Median income,Total,5,14410.31580720857,-883.6866257383608,-0.04347724201345293,-4.347724201345292
+P2,All Australia exc. NSW,treated,Population,Population,5,95045,-11422.496555053598,-0.12017987853178598,-12.017987853178598
+P2,All Australia exc. NSW,treated,Rent,Rent (monthly avg),5,2018.1135041296227,224.7872257253933,0.1090867647711129,10.90867647711129
+P3,Capital cities only (exc. Greater Sydney),spillover,Employment,Accommodation and food services,10,14.209,-0.20164165631273415,-0.014191122268473091,-1.419112226847309
+P3,Capital cities only (exc. Greater Sydney),spillover,Employment,Arts and recreation services,10,3.957,0.16066805750220373,0.04060350202229056,4.060350202229055
+P3,Capital cities only (exc. Greater Sydney),spillover,Employment,Retail trade,10,11.344000000000001,-0.27635257031874,-0.0243611222072232,-2.43611222072232
+P3,Capital cities only (exc. Greater Sydney),spillover,Employment,Total,10,173.27,-11.204836670639452,-0.0646669167809745,-6.46669167809745
+P3,Capital cities only (exc. Greater Sydney),spillover,Median income,Accommodation and food services,10,7651.985185445844,-650.7665483559465,-0.08750211735015259,-8.75021173501526
+P3,Capital cities only (exc. Greater Sydney),spillover,Median income,Arts and recreation services,10,12390.10323477382,-596.769428010187,-0.045739083186322325,-4.573908318632233
+P3,Capital cities only (exc. Greater Sydney),spillover,Median income,Retail trade,10,16712.16149506347,-2106.0977206858074,-0.12478963722450201,-12.478963722450201
+P3,Capital cities only (exc. Greater Sydney),spillover,Median income,Total,10,28670.884697293237,445.1655664242167,0.004378410092974965,0.4378410092974965
+P3,Capital cities only (exc. Greater Sydney),spillover,Population,Population,10,188913,-20607.902852234994,-0.10908673755768525,-10.908673755768525
+P3,Capital cities only (exc. Greater Sydney),spillover,Rent,Rent (monthly avg),10,1864.5920291351044,246.463442847244,0.13484011471648957,13.484011471648955
+P3,Capital cities only (exc. Greater Sydney),treated,Employment,Accommodation and food services,5,21.171,-0.4909728096796093,-0.02319081808509798,-2.319081808509798
+P3,Capital cities only (exc. Greater Sydney),treated,Employment,Arts and recreation services,3,1.677,0.17615265607022168,0.1050403435123564,10.50403435123564
+P3,Capital cities only (exc. Greater Sydney),treated,Employment,Retail trade,5,7.86,0.09079121608729848,0.011551045303727542,1.1551045303727543
+P3,Capital cities only (exc. Greater Sydney),treated,Employment,Total,5,123.15899999999999,-0.5283655675299007,-0.004290109269561305,-0.4290109269561305
+P3,Capital cities only (exc. Greater Sydney),treated,Median income,Accommodation and food services,5,6323.0160360871005,-132.94713356426846,-0.015845019048671104,-1.5845019048671107
+P3,Capital cities only (exc. Greater Sydney),treated,Median income,Arts and recreation services,3,13928.621943947526,-2811.573850145725,-0.14441576125273312,-14.441576125273311
+P3,Capital cities only (exc. Greater Sydney),treated,Median income,Retail trade,5,12323.546183206106,-487.710462588979,-0.04305999387705374,-4.305999387705374
+P3,Capital cities only (exc. Greater Sydney),treated,Median income,Total,5,14410.31580720857,-43.51554452170862,0.01493910026031217,1.4939100260312168
+P3,Capital cities only (exc. Greater Sydney),treated,Population,Population,5,95045,-10429.875076950506,-0.109736178409706,-10.973617840970599
+P3,Capital cities only (exc. Greater Sydney),treated,Rent,Rent (monthly avg),5,2018.1135041296227,243.83897354691825,0.11819759598604507,11.819759598604508
+P4,NA,NA,Rent,Rent (monthly avg),5,2018.1135041296227,224.75125257358116,0.10906931924683097,10.906931924683096

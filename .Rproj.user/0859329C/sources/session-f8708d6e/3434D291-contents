@@ -1,0 +1,587 @@
+library(tidyverse)
+library(readxl)
+library(zoo)
+library(scales)
+
+abs_path <- "C:/Users/ercun/OneDrive/Documents/EPIC ECON/Datasets/ABS/Consumer Price Index Feb 2026"
+
+# ── Helper: read ABS Sheet1 key file ─────────────────────────────────────────
+read_abs_key <- function(path) {
+  read_excel(path, sheet = "Sheet1", col_names = FALSE) %>%
+    slice(-1) %>%                                      # drop blank row 2
+    rename(
+      description = `...1`,
+      series_type  = `...4`,
+      series_id    = `...5`,
+      freq         = `...11`
+    ) %>%
+    filter(!is.na(series_id)) %>%
+    select(description, series_type, series_id, freq)
+}
+
+# ── Helper: read ABS DataX sheets ────────────────────────────────────────────
+read_abs_data <- function(file_path) {
+  xl          <- excel_sheets(file_path)
+  data_sheets <- xl[str_detect(xl, "^Data\\d+$")]
+  
+  map_dfr(data_sheets, function(sh) {
+    raw <- read_excel(file_path, sheet = sh, col_names = FALSE)
+    
+    # Row 10 (1-indexed): Series IDs across columns 2+
+    series_ids <- raw[10, -1] %>% unlist() %>% unname()
+    
+    # Rows 11+: col 1 = dates, cols 2+ = values
+    # Slice data rows first so col 1 is a clean datetime vector (no mixed types)
+    data_rows <- raw[11:nrow(raw), ]
+    
+    # Pull dates as numeric (Excel serial) and convert via janitor-safe method
+    dates <- data_rows[[1]] %>% as.numeric() %>% as.Date(origin = "1899-12-30")
+    
+    data_rows[-1] %>%
+      set_names(series_ids) %>%
+      mutate(Period = dates) %>%
+      pivot_longer(-Period, names_to = "Series_ID", values_to = "Value") %>%
+      mutate(Value = as.numeric(Value)) %>%
+      filter(!is.na(Period), !is.na(Value)) %>%
+      select(Series_ID, Period, Value)
+  })
+}
+
+# ── 1. Monthly All Items — Table 1 ───────────────────────────────────────────
+
+all_items_monthly <- read_abs_data(file.path(abs_path, "640101.xlsx")) %>%
+  filter(Series_ID == "A130393720C") %>%
+  mutate(Period = as.yearmon(Period),
+         series_name = "All Items",
+         freq = "Month")
+
+# ── 2. Monthly Trimmed Mean — Table 6 ────────────────────────────────────────
+# Trimmed Mean: A130400381L
+monthly_t6 <- read_abs_data(file.path(abs_path, "640106.xlsx")) %>%
+  filter(Series_ID == "A130400381L") %>%
+  mutate(
+    Period      = as.yearmon(Period),
+    series_name = "Trimmed Mean",
+    freq        = "Month"
+  )
+
+# ── 3. Quarterly All Items — Table 18 ────────────────────────────────────────
+# Series ID: A2325846C (Index Numbers; All groups CPI; Australia)
+quarterly_t18 <- read_abs_data(file.path(abs_path, "6401018.xlsx")) %>%
+  filter(Series_ID == "A2325846C") %>%
+  mutate(
+    # Convert to yearqtr first, then shift to last month of quarter as yearmon
+    Period      = as.yearmon(as.yearqtr(Period) + 2/4),
+    series_name = "All Items",
+    freq        = "Quarter"
+  )
+
+# ── 4. Quarterly Trimmed Mean — Appendix Table 1a ────────────────────────────
+# Series ID: A3604509L (Index Numbers; Trimmed Mean; Australia)
+quarterly_app <- read_abs_data(file.path(abs_path, "64010Appendix1a.xlsx")) %>%
+  filter(Series_ID == "A3604509L") %>%
+  mutate(
+    Period      = as.yearmon(as.yearqtr(Period) + 2/4),
+    series_name = "Trimmed Mean",
+    freq        = "Quarter"
+  )
+
+# ── 5. Combine: use quarterly data up to Q4 2024 (Dec 2024), then monthly ─────
+# Monthly index data starts Apr 2024, so the first valid monthly OTY is Apr 2025.
+# Quarterly is mapped to the last month of each quarter; stopping at Dec 2024
+# (Q4 2024) means the quarterly OTY series ends at Dec 2024, and the monthly
+# OTY series picks up seamlessly from Apr 2025 with no overlap or gap.
+quarterly_end  <- as.yearmon("Dec 2024")   # last quarterly point to include
+monthly_start  <- as.yearmon("Apr 2024")   # monthly index data starts here
+
+all_items <- bind_rows(
+  quarterly_t18 %>% filter(Period <= quarterly_end),
+  all_items_monthly
+) %>%
+  arrange(Period)
+
+trimmed_mean <- bind_rows(
+  quarterly_app %>% filter(Period <= quarterly_end),
+  monthly_t6
+) %>%
+  arrange(Period)
+
+# ── 6. Compute OTY % change ──────────────────────────────────────────────────
+# Quarterly OTY: lag 4 (4 quarters = 1 year).
+# Monthly OTY:   lag 12. Valid from Apr 2025 (12 months after monthly data begins).
+# Compute each frequency separately, then recombine.
+
+compute_oty_mixed <- function(df) {
+  monthly_part <- df %>%
+    filter(freq == "Month") %>%
+    arrange(Period) %>%
+    mutate(oty_pct_chg = (Value / lag(Value, 12)) - 1)
+  
+  quarterly_part <- df %>%
+    filter(freq == "Quarter") %>%
+    arrange(Period) %>%
+    mutate(oty_pct_chg = (Value / lag(Value, 4)) - 1)
+  
+  bind_rows(quarterly_part, monthly_part) %>%
+    arrange(Period)
+}
+
+all_items_oty    <- compute_oty_mixed(all_items)
+trimmed_mean_oty <- compute_oty_mixed(trimmed_mean)
+
+# ── 7. Combine both series for plotting ──────────────────────────────────────
+plot_data <- bind_rows(
+  all_items_oty    %>% select(Period, series_name, oty_pct_chg),
+  trimmed_mean_oty %>% select(Period, series_name, oty_pct_chg)
+) %>%
+  filter(Period >= "Jan 2016", !is.na(oty_pct_chg)) %>%
+  mutate(series_name = factor(series_name,
+                              levels = c("All Items", "Trimmed Mean")))
+
+# ── 8. Chart ─────────────────────────────────────────────────────────────────
+plot_data %>%
+  ggplot(aes(x = as.Date(Period), y = oty_pct_chg, colour = series_name)) +
+  annotate("rect", xmin = as.Date(as.yearmon("Jan 2016")), xmax = as.Date(as.yearmon("Feb 2026")), ymin = 0.02, ymax = 0.03, alpha = 0.15, fill = "grey50") +
+  geom_hline(yintercept = 0, linewidth = 0.6, colour = "black") +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 1.8) +
+  scale_colour_manual(values = c(
+    "All Items"    = "#0072B2",
+    "Trimmed Mean" = "#009E73"
+  )) +
+  labs(
+    x        = NULL,
+    y        = "(OTY Pct. Chg.)",
+    title    = "Australia CPI Increased 3.7% OTY in Feb. 2026",
+    subtitle = "Source: Australian Bureau of Statistics"
+  ) +
+  scale_x_date(date_breaks = "1 years", date_labels = "%Y") +
+  scale_y_continuous(breaks = seq(0,0.08,by=0.01),labels = label_percent(accuracy = 0.1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title       = element_text(size = 16, hjust = 0.5),
+    plot.subtitle    = element_text(size = 10, hjust = 0.5),
+    axis.title.y     = element_text(size = 10),
+    legend.position  = "top",
+    legend.title     = element_blank(),
+    legend.text      = element_text(size = 12)
+  )
+
+# CPI Contributions by Group — Australia, Monthly (Apr 2024 onward)
+# Assumes read_abs_data() is already defined from cpi_all_items_australia_feb_2026.R
+
+library(tidyverse)
+library(readxl)
+library(zoo)
+library(scales)
+
+abs_path <- "C:/Users/ercun/OneDrive/Documents/EPIC ECON/Datasets/ABS/Consumer Price Index Feb 2026"
+
+# ── Series IDs: contributions to All Groups CPI annual % pts change ───────────
+contrib_series <- tribble(
+  ~series_id,      ~series_name,
+  "A130393726T",   "All Groups CPI",
+  "A130395483W",   "Food And Non-Alcoholic Beverages",
+  "A130393033A",   "Alcohol And Tobacco",
+  "A130391675T",   "Clothing And Footwear",
+  "A130399190R",   "Housing",
+  "A130399204T",   "Furnishings, Household Equipment And Services",
+  "A130389995L",   "Health",
+  "A130396694R",   "Transport",
+  "A130391297V",   "Communication",
+  "A130393838K",   "Recreation And Culture",
+  "A130390030R",   "Education",
+  "A130392767V",   "Insurance And Financial Services"
+)
+
+# ── Read Data 4 ───────────────────────────────────────────────────────────────
+contrib_data <- read_abs_data(file.path(abs_path, "640104.xlsx")) %>%
+  inner_join(contrib_series, by = c("Series_ID" = "series_id")) %>%
+  mutate(
+    Period = as.yearmon(Period),
+    Value  = as.numeric(Value)
+  ) %>%
+  filter(Period >= "Apr 2024") %>%
+  arrange(series_name, Period)
+
+# ── Split into total (line) and components (bars) ────────────────────────────
+total_line <- contrib_data %>%
+  filter(series_name == "All Groups CPI")
+
+components <- contrib_data %>%
+  filter(series_name != "All Groups CPI") %>%
+  mutate(series_name = factor(series_name, levels = rev(c(
+    "Food And Non-Alcoholic Beverages",
+    "Alcohol And Tobacco",
+    "Clothing And Footwear",
+    "Housing",
+    "Furnishings, Household Equipment And Services",
+    "Health",
+    "Transport",
+    "Communication",
+    "Recreation And Culture",
+    "Education",
+    "Insurance And Financial Services"
+  ))))
+
+# ── Colour palette ────────────────────────────────────────────────────────────
+group_colours <- c(
+  "Food And Non-Alcoholic Beverages"             = "#1F77B4",
+  "Alcohol And Tobacco"                          = "#FF7F0E",
+  "Clothing And Footwear"                        = "#2CA02C",
+  "Housing"                                      = "#D62728",
+  "Furnishings, Household Equipment And Services"= "#9467BD",
+  "Health"                                       = "#8C564B",
+  "Transport"                                    = "#E377C2",
+  "Communication"                                = "#7F7F7F",
+  "Recreation And Culture"                       = "#BCBD22",
+  "Education"                                    = "#17BECF",
+  "Insurance And Financial Services"             = "#AEC7E8"
+)
+
+# ── Chart ─────────────────────────────────────────────────────────────────────
+ggplot() +
+  geom_col(
+    data = components,
+    aes(x = as.Date(Period), y = Value, fill = series_name),
+    width = 25
+  ) +
+  geom_line(
+    data  = total_line,
+    aes(x = as.Date(Period), y = Value),
+    colour    = "black",
+    linewidth = 1.2
+  ) +
+  geom_point(
+    data  = total_line,
+    aes(x = as.Date(Period), y = Value),
+    colour = "black",
+    size   = 1.8
+  ) +
+  geom_hline(yintercept = 0, linewidth = 0.6, colour = "black") +
+  scale_fill_manual(values = group_colours) +
+  labs(
+    x        = NULL,
+    y        = "(Cont. to OTY Pct. Chg.)",
+    title    = "Housing, Food, and Recreation Drive Above Target Inflation",
+    subtitle = "Source: Consumer Price Index (CPI), Australian Bureau of Statistics"
+  ) +
+  scale_x_date(date_breaks = "1 months", date_labels = "%b %Y") +
+  scale_y_continuous(labels = label_number(accuracy = 0.1)) +
+  guides(fill = guide_legend(ncol = 1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title    = element_text(size = 15, hjust = 0.3),
+    plot.subtitle = element_text(size = 10, hjust = 0.5),
+    axis.title.y  = element_text(size = 10),
+    legend.position   = "right",
+    legend.title      = element_blank(),
+    legend.text       = element_text(size = 9),
+    axis.text.x       = element_text(angle = 45, hjust = 1)
+  )
+
+library(tidyverse)
+library(readxl)
+library(zoo)
+library(scales)
+
+abs_path <- "C:/Users/ercun/OneDrive/Documents/EPIC ECON/Datasets/ABS/Consumer Price Index Feb 2026"
+
+# ── Helper: read ABS DataX sheets ────────────────────────────────────────────
+read_abs_data <- function(file_path) {
+  xl          <- excel_sheets(file_path)
+  data_sheets <- xl[str_detect(xl, "^Data\\d+$")]
+  
+  map_dfr(data_sheets, function(sh) {
+    raw <- read_excel(file_path, sheet = sh, col_names = FALSE)
+    
+    series_ids <- raw[10, -1] %>% unlist() %>% unname()
+    
+    data_rows <- raw[11:nrow(raw), ]
+    dates     <- data_rows[[1]] %>% as.numeric() %>% as.Date(origin = "1899-12-30")
+    
+    data_rows[-1] %>%
+      set_names(series_ids) %>%
+      mutate(Period = dates) %>%
+      pivot_longer(-Period, names_to = "Series_ID", values_to = "Value") %>%
+      mutate(Value = as.numeric(Value)) %>%
+      filter(!is.na(Period), !is.na(Value)) %>%
+      select(Series_ID, Period, Value)
+  })
+}
+
+# ── 1. Monthly data (Table 3) ─────────────────────────────────────────────────
+# Rents:                             A130390094A  (monthly from Jul 2022)
+# New dwelling purchase (owner-occ): A130391536T  (monthly from Sep 2017)
+
+monthly_raw <- read_abs_data(file.path(abs_path, "640103.xlsx")) %>%
+  filter(Series_ID %in% c("A130390094A", "A130391536T")) %>%
+  mutate(Period = as.yearmon(Period), freq = "Month")
+
+# ── 2. Quarterly Rents (Table 18) ────────────────────────────────────────────
+# A2331876F: Index Numbers; Rents; Australia — quarterly from Sep 1972
+
+quarterly_rents <- read_abs_data(file.path(abs_path, "6401018.xlsx")) %>%
+  filter(Series_ID == "A2331876F") %>%
+  mutate(
+    # Map to last month of each quarter (consistent with cpi_all_items approach)
+    Period = as.yearmon(as.yearqtr(Period) + 2/4),
+    freq   = "Quarter"
+  )
+
+# ── 3. Compute OTY % change ───────────────────────────────────────────────────
+# Rents: quarterly OTY (lag 4) up to Jun 2023; monthly OTY (lag 12) from Jul 2023
+# New dwellings: monthly only (lag 12), valid from Sep 2018
+
+compute_oty <- function(df, freq_col = "Month", lag_n) {
+  df %>%
+    filter(freq == freq_col) %>%
+    arrange(Period) %>%
+    mutate(oty_pct_chg = (Value / lag(Value, lag_n)) - 1)
+}
+
+rents_quarterly <- compute_oty(quarterly_rents, "Quarter", 4) %>%
+  filter(Period <= as.yearmon("Jun 2023"))
+
+rents_monthly <- compute_oty(monthly_raw %>% filter(Series_ID == "A130390094A"), "Month", 12) %>%
+  filter(Period >= as.yearmon("Jul 2023"))
+
+new_dwelling_monthly <- compute_oty(monthly_raw %>% filter(Series_ID == "A130391536T"), "Month", 12)
+
+# ── 4. Combine and label ──────────────────────────────────────────────────────
+rents <- bind_rows(rents_quarterly, rents_monthly) %>%
+  mutate(series_name = "Rents")
+
+new_dwelling <- new_dwelling_monthly %>%
+  mutate(series_name = "New Dwelling Purchase By Owner-Occupiers")
+
+plot_data <- bind_rows(rents, new_dwelling) %>%
+  filter(!is.na(oty_pct_chg)) %>%
+  select(Period, series_name, oty_pct_chg)
+
+# ── 5. Chart ──────────────────────────────────────────────────────────────────
+plot_data %>%
+  filter(Period >= "Jan 2018") %>%
+  ggplot(aes(x = as.Date(Period), y = oty_pct_chg, colour = series_name)) +
+  geom_hline(yintercept = 0, linewidth = 0.6, colour = "black") +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 1.8) +
+  scale_colour_manual(values = c(
+    "Rents"                                    = "#0072B2",
+    "New Dwelling Purchase By Owner-Occupiers" = "#D55E00"
+  )) +
+  labs(
+    x        = NULL,
+    y        = "(OTY Pct. Chg.)",
+    title    = "New Dwellings and Rents Increased 3.8% in Feb. 2026",
+    subtitle = "Source: Consumer Price Index (CPI), Australian Bureau of Statistics"
+  ) +
+  scale_x_date(
+    breaks      = seq(as.Date("2018-01-01"), as.Date("2026-01-01"), by = "1 years"),
+    date_labels = "%Y"
+  ) +
+  scale_y_continuous(labels = label_percent(accuracy = 0.1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title    = element_text(size = 16, hjust = 0.5),
+    plot.subtitle = element_text(size = 10, hjust = 0.5),
+    axis.title.y  = element_text(size = 10),
+    axis.text.x   = element_text(size = 11),
+    legend.position  = "top",
+    legend.title     = element_blank(),
+    legend.text      = element_text(size = 12)
+  )
+
+library(tidyverse)
+library(zoo)
+library(scales)
+
+# ── Read electricity index CSV ────────────────────────────────────────────────
+elec_raw <- read_csv(
+  file ="C:/Users/ercun/OneDrive/Documents/EPIC ECON/Datasets/ABS/Consumer Price Index Feb 2026/aus_electricity_index.csv",
+  skip        = 1,
+  col_names   = c("Period", "Excl_Rebates", "Incl_Rebates"),
+  col_types   = cols(.default = "c")
+)
+
+elec_data <- elec_raw %>%
+  filter(!is.na(Period), str_detect(Period, "^[A-Za-z]")) %>%
+  mutate(
+    Period       = as.yearmon(Period, format = "%b-%y"),
+    Excl_Rebates = as.numeric(str_remove(Excl_Rebates, "\\(\\d+\\)")),
+    Incl_Rebates = as.numeric(str_remove(Incl_Rebates, "\\(\\d+\\)"))
+  ) %>%
+  pivot_longer(
+    cols      = c(Excl_Rebates, Incl_Rebates),
+    names_to  = "series_name",
+    values_to = "Value"
+  ) %>%
+  mutate(series_name = case_when(
+    series_name == "Excl_Rebates" ~ "Excl. Government Rebates",
+    series_name == "Incl_Rebates" ~ "Incl. Government Rebates"
+  )) %>%
+  mutate(series_name = factor(
+    series_name,
+    levels = c("Excl. Government Rebates", "Incl. Government Rebates")
+  ))
+
+# ── Chart ─────────────────────────────────────────────────────────────────────
+elec_data %>%
+  ggplot(aes(x = as.Date(Period), y = Value, colour = series_name)) +
+  geom_hline(yintercept = 100, linewidth = 0.6, colour = "black") +
+  geom_line(linewidth = 1.2) +
+  geom_point(size = 1.8) +
+  scale_colour_manual(values = c(
+    "Excl. Government Rebates" = "#D55E00",
+    "Incl. Government Rebates" = "#0072B2"
+  )) +
+  labs(
+    x        = NULL,
+    y        = "(Jun. 2023 = 100)",
+    title    = "Electricity Prices Rose Sharply in Jan. 2026 as Rebates Expired",
+    subtitle = "Source: Consumer Price Index (CPI), Australian Bureau of Statistics"
+  ) +
+  scale_x_date(breaks      = seq(as.Date(as.yearmon("Feb 2026")), as.Date(as.yearmon("Jun 2023")), by = "-6 months"), date_labels = "%b %Y") +
+  scale_y_continuous(labels = label_number(accuracy = 1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title    = element_text(size = 15, hjust = 0.85),
+    plot.subtitle = element_text(size = 10, hjust = 0.5),
+    axis.title.y  = element_text(size = 10),
+    legend.position  = "top",
+    legend.title     = element_blank(),
+    legend.text      = element_text(size = 12)
+  )
+
+library(tidyverse)
+library(readxl)
+library(zoo)
+library(scales)
+
+abs_path <- "C:/Users/ercun/OneDrive/Documents/EPIC ECON/Datasets/ABS/Consumer Price Index Feb 2026"
+
+# ── Helper: read ABS DataX sheets ────────────────────────────────────────────
+read_abs_data <- function(file_path) {
+  xl          <- excel_sheets(file_path)
+  data_sheets <- xl[str_detect(xl, "^Data\\d+$")]
+  
+  map_dfr(data_sheets, function(sh) {
+    raw <- read_excel(file_path, sheet = sh, col_names = FALSE)
+    
+    series_ids <- raw[10, -1] %>% unlist() %>% unname()
+    data_rows  <- raw[11:nrow(raw), ]
+    dates      <- data_rows[[1]] %>% as.numeric() %>% as.Date(origin = "1899-12-30")
+    
+    data_rows[-1] %>%
+      set_names(series_ids) %>%
+      mutate(Period = dates) %>%
+      pivot_longer(-Period, names_to = "Series_ID", values_to = "Value") %>%
+      mutate(Value = as.numeric(Value)) %>%
+      filter(!is.na(Period), !is.na(Value)) %>%
+      select(Series_ID, Period, Value)
+  })
+}
+
+# ── Series ID keys ────────────────────────────────────────────────────────────
+# Table 17: quarterly index numbers by capital city
+quarterly_ids <- tribble(
+  ~Series_ID,    ~city,
+  "A2325806K",   "Sydney",
+  "A2325811C",   "Melbourne",
+  "A2325816R",   "Brisbane",
+  "A2325821J",   "Adelaide",
+  "A2325826V",   "Perth",
+  "A2325831L",   "Hobart",
+  "A2325836X",   "Darwin",
+  "A2325841T",   "Canberra"
+)
+
+# Table 1: monthly index numbers by capital city
+monthly_ids <- tribble(
+  ~Series_ID,    ~city,
+  "A130397375X", "Sydney",
+  "A130396086K", "Melbourne",
+  "A130397382W", "Brisbane",
+  "A130395001V", "Adelaide",
+  "A130393713F", "Perth",
+  "A130392355X", "Hobart",
+  "A130395008K", "Darwin",
+  "A130393727V", "Canberra"
+)
+
+# ── Read data ─────────────────────────────────────────────────────────────────
+quarterly_raw <- read_abs_data(file.path(abs_path, "6401017.xlsx")) %>%
+  inner_join(quarterly_ids, by = "Series_ID") %>%
+  mutate(Period = as.yearmon(as.yearqtr(Period) + 2/4),
+         freq   = "Quarter")
+
+monthly_raw <- read_abs_data(file.path(abs_path, "640101.xlsx")) %>%
+  inner_join(monthly_ids, by = "Series_ID") %>%
+  mutate(Period = as.yearmon(Period),
+         freq   = "Month")
+
+# ── Combine: quarterly up to Q4 2024 (Dec 2024), monthly from Apr 2024 ───────
+quarterly_end <- as.yearmon("Dec 2024")
+
+combined <- bind_rows(
+  quarterly_raw %>% filter(Period <= quarterly_end),
+  monthly_raw
+) %>%
+  arrange(city, freq, Period)
+
+# ── Compute OTY % change ──────────────────────────────────────────────────────
+compute_oty <- function(df) {
+  monthly_part <- df %>%
+    filter(freq == "Month") %>%
+    arrange(city, Period) %>%
+    group_by(city) %>%
+    mutate(oty_pct_chg = (Value / lag(Value, 12)) - 1) %>%
+    ungroup()
+  
+  quarterly_part <- df %>%
+    filter(freq == "Quarter") %>%
+    arrange(city, Period) %>%
+    group_by(city) %>%
+    mutate(oty_pct_chg = (Value / lag(Value, 4)) - 1) %>%
+    ungroup()
+  
+  bind_rows(quarterly_part, monthly_part) %>%
+    arrange(city, Period)
+}
+
+plot_data <- compute_oty(combined) %>%
+  filter(Period >= "Jan 2016", !is.na(oty_pct_chg)) %>%
+  mutate(city = str_to_title(city),
+         city = factor(city, levels = c("Sydney","Melbourne","Brisbane",
+                                        "Adelaide","Perth","Hobart",
+                                        "Darwin","Canberra")))
+
+# ── Chart ─────────────────────────────────────────────────────────────────────
+plot_data %>%
+  ggplot(aes(x = as.Date(Period), y = oty_pct_chg, colour = city)) +
+  annotate("rect",
+           xmin  = as.Date(as.yearmon("Jan 2016")),
+           xmax  = as.Date(as.yearmon("Feb 2026")),
+           ymin  = 0.02, ymax = 0.03,
+           alpha = 0.15, fill = "grey50") +
+  geom_hline(yintercept = 0, linewidth = 0.6, colour = "black") +
+  geom_line(linewidth = 0.8) +
+  labs(
+    x        = NULL,
+    y        = "(OTY Pct. Chg.)",
+    title    = "Perth Inflation is Highest at 4.9% OTY in Feb. 2026",
+    subtitle = "Source: Consumer Price Index (CPI), Australian Bureau of Statistics"
+  ) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  scale_y_continuous(breaks = seq(-0.01, 0.10, by = 0.01),
+                     labels = label_percent(accuracy = 0.1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title      = element_text(size = 15, hjust = 0.5),
+    plot.subtitle   = element_text(size = 10, hjust = 0.5),
+    axis.title.y    = element_text(size = 10),
+    legend.position = "top",
+    legend.title    = element_blank(),
+    legend.text     = element_text(size = 12)
+  ) +
+  guides(colour = guide_legend(nrow = 2))
